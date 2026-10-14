@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coding Club</title>
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Coding Club</h1>
+
+  <div id="nav">
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#register">Register</a>
+  </div>
+
+  <div id="about" class="about">
+    <p>Welcome to the Coding Club. We learn and build projects together.</p>
+    <img src="logo.png" alt="Club logo">
+  </div>
+
+  <table id="schedule">
+    <tr>
+      <th>Day</th>
+      <th>Time</th>
+      <th>Activity</th>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td rowspan="2">5 PM</td>
+      <td>HTML</td>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Python</td>
+    </tr>
+    <tr>
+      <td colspan="3">Tuesday: Meeting</td>
+    </tr>
+  </table>
+
+  <form id="register" method="post">
+    <fieldset>
+      <legend>Register</legend>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="pass">Password:</label>
+      <input type="password" id="pass" name="password"><br>
+
+      Gender:
+      <input type="radio" id="m" name="gender" value="male">
+      <label for="m">Male</label>
+      <input type="radio" id="f" name="gender" value="female">
+      <label for="f">Female</label><br>
+
+      <label for="dept">Department:</label>
+      <select id="dept" name="dept">
+        <option>CSE</option>
+        <option>EEE</option>
+        <option>BBA</option>
+      </select><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </fieldset>
+  </form>
+
+  <a href="https://www.example.edu" target="_blank">University Website</a>
+
+</body>
+</html>
