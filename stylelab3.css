@@ -1,0 +1,46 @@
+* {
+  font-family: Arial;
+}
+
+body {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+}
+
+h1, legend {
+  color: blue;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+a:hover {
+  color: red;
+}
+
+.about {
+  width: 400px;
+  padding: 10px;
+  border: 2px solid blue;
+  margin: 20px;
+}
+
+img {
+  max-width: 100px;
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: lightblue;
+  z-index: 10;
+}
+
+#nav a {
+  display: inline-block;
+  padding: 10px;
+}
